@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #1f1f20, #000000);
+      color: rgb(253, 183, 4);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: rgb(0, 0, 0);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ecf0f1;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+      color: white;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      border-left: 4px solid #fff;
+      padding-left: 10px;
+    }
+
+    h3 {
+      color: rgb(8, 230, 204);
+      margin-bottom: 8px;
+    }
+
+    .projects img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background-color: rgba(0, 0, 0, 0.2);
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #8893fa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight-red {
+      color: rgb(230, 8, 8);
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Alcides Silva</h1>
+    <h2>Desenvolvedor</h2>
+  </header>
+
+  <section>
+    <h2>😁Sobre Mim</h2>
+    <div class="card">
+      <p>Sou estudante, faço cursos de desenvolvimento de sistemas, banco de dados, introdução à programação e sistemas de informação. Meu objetivo é crescer como profissional, desenvolver minhas habilidades e contribuir para soluções digitais criativas.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>✨Projetos</h2>
+    <div class="card projects">
+      <h3>Hackathon</h3>
+      <p>Participei de um projeto que ocorreu em um hackathon, onde minha equipe e eu criamos um app chamado Civis Alert.</p>
+
+      <h3>Civis Alert</h3>
+      <p>O projeto Civis Alert é um aplicativo móvel desenvolvido para melhorar a comunicação entre a população e a Defesa Civil em Santa Catarina, especialmente em situações de desastres naturais como enchentes. Ele permite que cidadãos enviem alertas em tempo real sobre riscos e ocorrências, facilitando respostas mais rápidas e precisas da Defesa Civil. O app também oferece mapas de risco e rotas de fuga, promovendo o engajamento comunitário e aumentando a segurança local.</p>
+
+      <h3>Feira de Ciências</h3>
+      <p>Nossa equipe apresentou o projeto Civis Alert na Feira de Ciências do CEDUP, e o projeto ficou em 2º lugar.</p>
+
+      <!-- <img src="  ???  " alt="Projeto de alerta"> -->
+    </div>
+  </section>
+
+  <section>
+    <h2>📴Contato</h2>
+    <div class="card">
+      <p><span class="highlight-red">Email:</span> <a href="mailto:4551068569@estudante.sed.sc.gov.br">4551068569@estudante.sed.sc.gov.br</a></p>
+    </div>
+  </section>
+
+</body>
+</html>
